@@ -1,0 +1,257 @@
+*
+{
+    margin:0%;
+}
+.header
+{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+.link_head
+{
+    height: 30px;
+    width: 30%;
+}
+.head_list
+{
+    color: grey;
+    list-style: none;
+    display: flex;
+}
+.head_list a
+{
+    color: grey;
+}
+.head_list_items
+{
+    padding: 5px;
+    margin: 5px;
+    line-height: 10px;
+    font-size:smaller;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_navi
+{
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    margin-top: 0%;
+    display: flex;
+}
+.main_navi input
+{
+    right: 50px;
+    top: 50px;
+}
+.comp_logo
+{
+    height: 150px;
+    padding-top: 0.5%;
+    margin-left: 3%;
+    opacity: 0.8;
+}
+.comp_nm
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.menu_btn
+{
+   /* background-color: red;  */
+   position: relative;
+}
+.menu_btn ul
+{
+    margin-top: 110px;
+    margin-left:200px;
+    list-style: none;
+    display: flex;
+} 
+.menu_btn li
+{
+    padding-left: 5px;
+}
+.menu_btn input
+{
+    width: 150px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: silver;
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu_btn li :hover 
+{
+    background-color: orange;
+}
+.search
+{
+    height: 10px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+}
+.search input
+{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.menu_link_open
+{
+    width: 100%;
+    height: 250px;
+    background-color: orange;
+    display: flex;
+}
+.menu_service
+{
+    width: 25%;
+    height: 220px;
+    background-color: rgba(255, 0, 0, 0.397);
+    /*background-image: url(image\service_background.jpg);*/
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    box-shadow: 0px 10px 7px 5px black inset;
+}
+.menu_service input
+{
+    margin-top: 10%;  
+}
+.menu_service label
+{
+    color: green;
+    font-size: 22px;
+    font-weight: 700;
+}
+.menu_service h5
+{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    text-align: justify;
+    color:silver;
+    line-height: 20px;
+}
+.menu_content
+{
+    width: 75%;
+    height: 250px;
+    background-color:orange;
+}
+.menu_content h1
+{
+    margin-top: 2%;
+    margin-left: 100PX;
+    color: white; 
+}
+.menu_content h3
+{
+    margin-top: 2%;
+    margin-left: 100PX;
+    margin-right: 70px;
+    color: white;
+    text-align: justify;
+}
+.main_containor
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.contain_info1
+{
+    width:70%;
+    height: 600px;
+}
+.contain_info1 hr
+{
+    margin-left: 15%;
+    margin-right: 10%;
+    border-color: gray;
+}
+.contain_info1 h2
+{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.contain_info1 p
+{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-top: 1%;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.contain_info2
+{
+    width:30%;
+    height: 600px;
+   /* background-color: lightseagreen;*/
+}
+.contain_info2 h2
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.select_project
+{
+    margin-top: 2%;
+    height: 500px;
+    width: 100%;
+    background-color: orange;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+.select_project input
+{
+    margin-top: 3%;
+    margin-left: 20px;
+}
+.select_project img
+{
+    margin-top: 3%;
+    margin-left: 100px;
+}
+.main_footer
+{
+    width: 100%;
+    height: 130px;
+    background-color:darkgrey;
+}
+.foot_link
+{
+    padding-top: 2%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+.foot_link a
+{
+    color: black;
+}
+.foot_msg
+{
+    padding-top: 1%;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.foot_copy_right
+{
+    padding-top: 1%;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+}
