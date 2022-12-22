@@ -1,0 +1,788 @@
+@media(min-width:1025px) and (max-width:1200px)
+{
+    *
+    {
+        margin: 0%;
+    }
+    .main_header
+    {
+        background-image: url(/Assets/edu_background2.avif);
+        backdrop-filter: blur(10px);
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+    }
+    .header
+    {
+        height: 30px;
+        width: 100%;
+        background-color: rgb(8, 0, 0);
+        color: white;
+        line-height: 30px;
+        display: flex;
+    }
+    .header_msg
+    {
+        margin-left: 100px;
+        font-size: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .header_msg_span
+    {
+        color: orangered;
+        font-size: 12px;
+    }
+    .font_away_link
+    {
+        margin-left: 500px;
+    }
+    .font_away_link i
+    {
+        size: 30px;
+    }
+    .nevi_main
+    {
+        margin-top: 2%;
+        height: 80px;
+        width: 100%;
+        background-color: transparent;
+        backdrop-filter: blur(2px);
+        color: white;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        /*opacity: 0.7;*/
+        display: flex;
+    }
+    .nevi_msg
+    {
+        line-height: 80px;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+        margin-left: 100px;
+    }
+    .menu_items
+    {
+        margin-left: 50px;
+    }
+    .menu_items ul
+    {
+        list-style: none;
+        display: flex;
+        line-height: 80px;
+    }
+    .menu_items li
+    {
+        color:white;
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .menu_items li:hover
+    {
+        color:brown;
+        cursor: pointer;
+    }
+    .header_info
+    {
+        margin-top: 120px;
+        margin-left: 200px;
+        margin-right:35%;
+    }
+    .header_info h5
+    {
+        color: white;
+        font-family:sans-serif;
+        font-size: 22px;
+    }
+    .header_info h2
+    {
+        margin-top: 18PX;
+        color: white;
+        font-family:cursive;
+        font-size: 36px;
+    }
+    .header_info h6
+    {
+        margin-top: 18PX;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .header_info input
+    {
+        margin-top: 3%;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+    }
+    .mid_div_1
+    {
+        height: 200px;
+        width: 300px;
+        background-color:  rgb(136, 7, 7);
+        position: absolute;
+        top:600px;
+        left:100PX;
+        
+        border-radius: 15PX;
+    }
+    .mid_div_1 h2
+    {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .mid_div_2
+    {
+        height: 200px;
+        width: 300px;
+        background-color:  rgb(136, 7, 7);
+        position: absolute;
+        top:600px;
+        left:460PX;
+        border-radius: 15PX;
+    }
+    .mid_div_2 h2
+    {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .mid_div_3
+    {
+        height: 200px;
+        width: 300px;
+        background-color: rgb(136, 7, 7);
+        position: absolute;
+        top:600px;
+        left:810px;
+    
+        border-radius: 15PX;
+    }
+    .mid_div_3 h2
+    {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+
+    /* main_meeting */
+    .main_meeting
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover; 
+        width: 100%;
+        height: auto;
+    }
+    .meeting_title
+    {
+        padding-top: 200px;
+    }
+    .meeting_title h2
+    {
+        color: white;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .meeting_title
+    {
+        color: grey;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .meeting_and_gallery
+    {
+        height: 800px;
+        width: 100%;
+    /*   background-color: blueviolet;*/
+        display: flex;
+    }
+    .meeting_categories
+    {
+        margin-top: 3%;
+        margin-left: 4%;
+        height: 350px;
+        width: 30%;
+        padding-top: 1%;
+        padding-left: 3%;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .meeting_categories ul
+    {
+        list-style: none;
+        padding-top: 5%;
+    }
+    .meeting_categories li
+    {
+        font-size: 17px;
+        margin-left: -16%;
+        padding-top: 5%;
+    }
+    .meeting_categories input
+    {
+        margin-top: 10%;
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+    }
+    .gallery
+    {
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 3%;
+        height: 500px;
+        width: 70%;
+        display: flex;  
+        flex-wrap: wrap;
+    }
+    .g1
+    {
+        height: 320px;
+        width: 320px;
+        background-color: white; 
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 15px;
+    }
+    .g1 img
+    {
+        height: 200px;
+        width: 320px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g1_calender
+    {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 50px;
+        height: 70px;
+        float: left;
+    }
+    .g1_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g1_info h3
+    {
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .g2
+    {
+        height: 320px;
+        width: 320px;
+        background-color: white; 
+        margin-left: 2%;
+        border-radius: 15px;
+    }
+    .g2 img
+    {
+        height: 200px;
+        width: 320px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+    }
+    .g2_calender
+    {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 50px;
+        height: 90px;
+        float: left;
+    }
+    .g2_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .g2_info h3
+    {
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .g3
+    {
+        height: 320px;
+        width: 320px;
+        background-color: white; 
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+        border-radius: 15px;
+    }
+    .g3 img
+    {
+        height: 200px;
+        width: 320px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g3_calender
+    {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 50px;
+        height: 80px;
+        float: left;
+    }
+    .g3_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g3_info h3
+    {
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .g4
+    {
+        height: 320px;
+        width: 320px;
+        background-color: white; 
+        margin-left: 2%;
+        margin-top: 5%;
+        border-radius: 15px;
+    }
+    .g4 img
+    {
+        height: 200px;
+        width: 320px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g4_calender
+    {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 50px;
+        height: 80px;
+        float: left;
+    }
+    .g4_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g4_info h3
+    {
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .apply_degree_main
+    {
+        background-image: url(/Assets/edu_background1.avif);
+        backdrop-filter: grayscale(80%);
+        background-size: cover;
+        height: 600px;
+        width: 100%;  
+    }
+    .apply_bach_degree_div1
+    {
+        background-color:transparent;
+        backdrop-filter: blur(40px);
+        height: 150px;
+        width: 500px;
+        margin-left: 10%;
+        margin-top: 7%;
+        float:left;
+        padding-top:2%;
+        padding-left:3%;
+        padding-right:1%;
+        border: 1px solid gray;
+        border-radius: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+    }
+    .apply_bach_degree_div1 input
+    {
+        margin-top: 3%;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+    }
+    .apply_bach_degree_div2
+    {
+        background-color:transparent;
+        backdrop-filter: blur(40px);
+        height: 150px;
+        width: 500px;
+        margin-left: 10%;
+        margin-top: 5%;
+        float:left;
+        padding-top:2%;
+        padding-left:3%;
+        padding-right:1%;
+        border: 1px solid gray;
+        border-radius: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: black;
+    }
+    .apply_bach_degree_div2 input
+    {
+        margin-top: 3%; 
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: orange;
+        color: white;
+    }
+    .temp_layout
+    {
+        height: 300px;
+        width: 375px;
+        background-color: whitesmoke;
+        float: left;
+        margin-left: 7%;
+        margin-top: -13%;
+        border-radius: 15px;
+        padding-top:3%;
+        padding-left:1%;
+    }
+    .temp_layout ul
+    {
+        list-style: none;
+    }
+    .temp_layout li
+    {
+    margin-top: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* populer courses */
+    .populer_courses
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover; 
+        width: 100%;
+        height: 500px;
+    }
+    .courses_title
+    {
+        padding-top: 8%;
+        color: grey;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .courses_title h2
+    {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .course1
+    {
+        height: 250px;
+        width: 200px;
+        background-color: blueviolet;
+        margin-top: 3%;
+        margin-left: 9%;
+        float: left;
+    }
+    .course1_img, .course2_img, .course3_img,.course4_img
+    {
+        height: 60%;
+        width: 200px;
+        background-color: aqua;
+    }
+    .course1_info, .course2_info, .course3_info, .course4_info 
+    {
+        height: 40%;
+        width: 200px;
+        background-color:white;
+    }
+    .course1_img img
+    {
+        height: 100%;
+        width: 200px;
+    }
+    .course1_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    .course2
+    {
+        height: 250px;
+        width: 200px;
+        background-color: blueviolet;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+    }
+    .course2_img img
+    {
+        height: 100%;
+        width: 200px;
+    }
+    .course2_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    .course3
+    {
+        height: 250px;
+        width: 200px;
+        background-color: blueviolet;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+    }
+    .course3_img img
+    {
+        height: 100%;
+        width: 200px;
+    }
+    .course3_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    .course4
+    {
+        height: 250px;
+        width: 200px;
+        background-color: blueviolet;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+    }
+    .course4_img img
+    {
+        height: 100%;
+        width: 200px;
+    }
+    .course4_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    .uni_fect_main
+    {
+        background-image: url(/Assets/apply_degree_bg.png);
+        backdrop-filter: grayscale(80%);
+        background-size: cover;
+        height: 700px;
+        width: 100%;  
+    }
+    .uni_fect_detail
+    {
+        height: 500px;
+        width: 575px;
+        float: left;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    .sucssec_student
+    {
+        height: 150px;
+        width: 250px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 10%;
+        margin-left: 5%;
+        border-radius: 15px;
+        border-color:darkgray
+    }
+    .current_teacher
+    {
+        height: 150px;
+        width: 250px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 5%;
+        margin-left: 5%;
+        border-radius: 15px;
+    }
+    .new_student
+    {
+        height: 150px;
+        width: 250px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: -53%;
+        margin-right: 5%;
+        float:right;
+        border-radius: 15px;
+    }
+    .award
+    {
+        height: 150px;
+        width: 250px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: -23%;
+        margin-right: 5%;
+        float:right;
+        border-radius: 15px;
+    }
+    .uni_fect_main h2
+    {
+        margin-left: 3%;
+        color: white;
+        font-size: 30px;
+        font-family:cursive;
+        font-weight: bold;
+    }
+    .uni_fect_main h1
+    {
+        text-align: center;
+        padding-top: 8%;
+        color:black;
+        font-weight: bold;
+    }
+    .uni_fect_main h4
+    {
+        text-align: center;
+        padding-top: 8%;
+        color:rgb(15, 1, 43);
+        font-weight: bold;
+    }
+    .uni_fect_video
+    {
+        height: 230px;
+        width: 400px;
+        float: right;
+        margin-top: 15%;
+        margin-right: 5%;
+        border-radius: 15px;
+    }
+    .uni_fect_video video
+    {
+        height: 230px;
+        width: 400px;
+        margin-right: 14%;
+        border-radius: 15px;
+    }
+    .get_in_touch_main
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover; 
+        width: 100%;
+    /* background-color: blue;*/
+        height: 500px;
+        display: flex;
+    }
+    .get_in_touch_form
+    {
+        height: 325px;
+        width: 700px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .get_in_touch_form h2
+    {
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .get_in_touch_form input, textarea
+    {
+        margin-top: 2%;
+        margin-left: 5%;
+        border-radius: 5px;
+        padding-left: 8px;
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .btn_get_info
+    {
+        height: 40px;
+        width: 250px;
+        margin-top: 3%;
+        margin-left: 5%;
+        background-color: maroon;
+        color: white;
+        border-radius: 25px;
+        padding-left: 4px;
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .get_in_touch_info
+    {
+        height: 325px;
+        width: 250px;
+        background-color: rgb(138, 24, 4);
+        border-radius: 15px;
+        margin-top: 8%;
+        margin-left: 3%;
+        padding-left: 30px;
+        padding-top:  30px;
+    }
+    .get_in_touch_info hr
+    {
+        width: 220px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: lightgray;
+    }
+    .get_in_touch_info h4, h3
+    {
+        color: silver;
+        font-family:sans-serif;
+    }
+}
