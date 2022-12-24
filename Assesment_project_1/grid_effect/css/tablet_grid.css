@@ -1,0 +1,773 @@
+@media(min-width:481px) and (max-width:768px)
+{
+    *
+    {
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    /* main header starts from here */
+    .main_header
+    {
+        background-image: url(/Assets/edu_background2.avif);
+        backdrop-filter: blur(10px);
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 5%, 30%, 40%, 20%;
+        grid-template-columns: 40%, 40%, 20%;
+    }
+    .header_msg
+    {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        margin-left: 0px;
+        padding-left: 10px;
+        font-size: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        height: 30px;
+        background-color: rgb(8, 0, 0);
+        color: white;
+        line-height: 30px;
+    }
+    .header_msg_span
+    {
+        color: orangered;
+        font-size: 8px;
+    }
+    .font_away_link
+    {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        line-height: 30px;
+        margin-right: 0px;
+        padding-right: 30px;
+        background-color: rgb(8, 0, 0);
+        color: white;
+        height: 30px;
+        size: 15px;
+    }
+    .font_away_link i
+    {
+        size: 10px;
+        height: 10px;
+    }
+    .nevi_msg
+    {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+        margin-top: -150px;
+        padding-left: 30px;
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    .menu_items
+    {
+        grid-row: 2/3;
+        grid-column: 2/4;
+       /* background-color: transparent;
+        backdrop-filter: blur(5px);*/
+        margin: 0%;
+        padding-left: 0px;
+        height: 80px;
+        margin-top: -150px;
+        margin-left: 0px;
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    .menu_items ul
+    {
+        list-style: none;
+        display: flex;
+    }
+    .menu_items li
+    {
+        padding-left: 25px;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+        margin-top: 0px;
+        line-height: 80px;
+    }
+    .menu_items li:hover
+    {
+        color:brown;
+        cursor: pointer;
+    }
+    .header_info
+    {
+        grid-row: 3/4;
+        grid-column: 1/3;
+        margin-top: -100px;
+        margin-left: 50px;
+        margin-right: 100px;
+        padding-left: 0px;
+    }
+    .header_info h5
+    {
+        color: white;
+        font-family:sans-serif;
+        font-size: 18px;
+    }
+    .header_info h2
+    {
+        margin-top: 15PX;
+        color: white;
+        font-family:cursive;
+        font-size: 36px;
+    }
+    .header_info h6
+    {
+        margin-top: 18PX;
+        color: white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .header_info input
+    {
+        margin-top: 3%;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+        margin-top: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+    }
+    /* main header division over here */
+    
+        /* main meeting division starts from here */
+    .main_meeting
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover;  
+        height: 1500px;
+        display: grid;
+        grid-template-columns: 50, 50%;
+        grid-template-rows: 25%, 25%, 25%, 25%;
+    }
+    .meeting_title
+    {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        padding-top: 20%;
+    }
+    .meeting_title h2
+    {
+        color: white;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .meeting_title hr
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .meeting_categories
+    {
+        grid-row: 2/3 ;
+        grid-column: 1/3;
+        height: 380px;
+        width: 90%;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-left: 25px;
+    }
+    .meeting_categories h5
+    {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .meeting_categories ul
+    {
+        list-style: none;
+        padding-top: 20px;
+    }
+    .meeting_categories li
+    {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .meeting_categories input
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+    }
+    .g1
+    {
+        grid-row: 3/4 ;
+        grid-column: 1/2;
+        height: 350px;
+        width: 330px;
+        background-color: white; 
+        margin-left: 30px;
+        margin-top: 0px;
+        border-radius: 15px;
+    }
+    .g1 img
+    {
+        height: 250px;
+        width: 330px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g1_calender
+    {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 50px;
+        height: 70px;
+        float: left;
+    }
+    .g1_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g2 
+    {
+        grid-row: 3/4 ;
+        grid-column: 2/2;
+        height: 350px;
+        width: 330px;
+        background-color: white; 
+        margin-top: 0px;
+        margin-left: 0px;
+        border-radius: 15px;
+    }
+    .g2 img
+    {
+        height: 250px;
+        width: 330px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+    }
+    .g2_calender
+    {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 50px;
+        height: 70px;
+        float: left;
+    }
+    .g2_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g3
+    {
+        grid-row: 4/4 ;
+        grid-column: 1/2;
+        height: 350px;
+        width: 330px;
+        background-color: white; 
+        margin-top: 0px;
+        margin-left: 30px;
+        border-radius: 15px;
+    }
+    .g3 img
+    {
+        height: 250px;
+        width: 330px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g3_calender
+    {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 50px;
+        height: 70px;
+        float: left;
+    }
+    .g3_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    .g4
+    {
+        grid-row: 4/4 ;
+        grid-column: 2/2;
+        height: 350px;
+        width: 330px;
+        background-color: white; 
+        margin-top: 0px;
+        margin-left: 0px;
+        border-radius: 15px;
+    }
+    .g4 img
+    {
+        height: 250px;
+        width: 330px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .g4_calender
+    {
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 50px;
+        height: 70px;
+        float: left;
+    }
+    .g4_info
+    {
+        padding-left: 5%;
+        margin-top: 3%;
+    }
+    /* main meeting division over here */
+
+    /* Apply degree main css starts from here*/
+    .apply_degree_main
+    {
+        background-image: url(/Assets/edu_background1.avif);
+        backdrop-filter: grayscale(80%);
+        background-size: cover;
+        height: 600px;
+        grid-row: 3/4;
+        grid-column: 1/10;
+        display: grid;
+        grid-template-columns: 50%, 50%; /* grid of apply degree division*/
+        grid-template-rows: 50%, 50%;   /* grid of apply degree division */
+    }
+    .apply_bach_degree_div1
+    {
+        grid-row: 1/2;      /* grid of apply degree division*/
+        grid-column: 1/2;   /* grid of apply degree division*/
+        background-color:transparent;
+        backdrop-filter: blur(40px);
+        height: 200px;
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 40px;
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:10px;
+        text-align: justify;
+        border: 1px solid gray;
+    }
+    .apply_bach_degree_div1 input
+    {
+        margin-top: 20px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgb(165, 7, 7);
+        color: white;
+    }
+    .apply_bach_degree_div2
+    {
+        grid-row: 2/2;      /* grid of apply degree division*/
+        grid-column: 1/1;   /* grid of apply degree division*/
+        background-color:transparent;
+        backdrop-filter: blur(40px);
+        height: 200px;
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 40px;
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:10px;
+        text-align: justify;
+        border: 1px solid gray;
+    }
+    .apply_bach_degree_div2 input
+    {
+        margin-top: 20px; 
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: orange;
+        color: white;
+    }
+    .temp_layout
+    {
+        grid-row: 1/3;
+        grid-column: 2/2;
+        height: 250px;
+        width: 365px;
+        background-color: whitesmoke;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 40px;
+        border-radius: 15px;
+        padding-top:0%;
+        padding-left:0%;
+    }
+    .temp_layout ul
+    {
+        list-style: none;
+    }
+    .temp_layout li
+    {
+        margin-top: 10%;
+        font-size: 14px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* Apply degree main css over*/
+
+    /* populer course main css starts from here*/
+    .populer_course_main
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover; 
+        width: 100%;
+        height: 500px;
+        grid-row: 4/5;
+        grid-column: 1/10;
+        /* grid for populer division*/
+        display: grid;
+        grid-template-rows: 50%, 50%;
+        grid-template-columns: 20%, 20%, 20%, 20%;  
+    }
+    .courses_title
+    {
+        grid-row: 1/2;
+        grid-column: 1/5;
+        padding-top: 50px;
+        color: grey;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .courses_title h2
+    {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .course1
+    {
+        grid-row: 2/2;
+        grid-column: 1/2;
+        height: 250px;
+        width: 150px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+    .course1_img, .course2_img, .course3_img,.course4_img
+    {
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+    }
+    .course1_img img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .course1_info, .course2_info, .course3_info, .course4_info 
+    {
+        height: 150px;
+        width: 150px;
+        background-color:white;
+    }
+    .course1_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .course2
+    {
+        grid-row: 2/2;
+        grid-column: 2/3;
+        background-color:olivedrab;
+        height: 250px;
+        width: 150px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    .course2_img img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .course2_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .course3
+    {
+        grid-row: 2/2;
+        grid-column: 3/4;
+        height: 250px;
+        width: 150px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+    .course3_img img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .course3_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .course4
+    {
+        grid-row: 2/2;
+        grid-column: 4/4;
+        height: 250px;
+        width: 150px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    .course4_img img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .course4_info h4
+    {
+        color: black;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 10px;
+        text-align: center ;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    /* populer course main css over*/
+
+    /* university fect data main css starts from here*/
+    .uni_fect_main
+    {
+        background-image: url(/Assets/apply_degree_bg.png);
+        backdrop-filter: grayscale(80%);
+        background-size: cover;
+        grid-row: 5/6; /*main grid */
+        grid-column: 1/10;  /*main grid */
+        height: 600px;
+        /*grid for uni_fect_division */
+        display: grid;
+        grid-template-columns: 20%, 20%, 60%;
+        grid-template-rows: 50%, 50%;
+    }
+    .uni_fect_detail
+    {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        height: 0px;
+        width: 400px;
+        margin-top: 40px;
+        margin-left: 50px;
+        background-color: black;
+    }
+    .sucssec_student
+    {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        height: 100px;
+        width: 150px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 40px;
+        margin-left: 50px;
+        border-radius: 15px;
+        border-color:darkgray
+    }
+    .current_teacher
+    {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        height: 100px;
+        width: 150px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 0px;
+        margin-left: 70px;
+        border-radius: 15px;
+    }
+    .new_student
+    {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        height: 100px;
+        width: 150px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 70px;
+        margin-left: -200px;
+        border-radius: 15px;
+    }
+    .award
+    {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        height: 100px;
+        width: 150px;
+        background-color:transparent;
+        backdrop-filter: blur(20px);
+        margin-top: 30px;
+        margin-left: -200px;
+        border-radius: 15px;
+    }
+    .uni_fect_main h2
+    {
+        margin-left: 3%;
+        color: white;
+        font-size: 30px;
+        font-family:cursive;
+        font-weight: bold;
+    }
+    .uni_fect_main h1
+    {
+        text-align: center;
+        padding-top: 8%;
+        color:black;
+        font-weight: bold;
+    }
+    .uni_fect_main h4
+    {
+        text-align: center;
+        padding-top: 8%;
+        color:rgb(15, 1, 43);
+        font-weight: bold;
+    }
+    .uni_fect_video
+    {
+        grid-row: 2/5;
+        grid-column: 3/3;
+        height: 250px;
+        width: 250px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .uni_fect_video video
+    {
+        height: 250px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    /* university fect data main css over*/
+
+    /* get in touch main css starts from here*/
+    .get_in_touch_main
+    {
+        background-image: url(/Assets/texture_background2.webp);
+        background-size: cover; 
+        height: 500px;
+        width: 100%;
+        /*grid for get_in_touch_main_division */
+        display: grid;
+        grid-template-rows: 100px;
+        grid-template-columns: 50%, 50%;
+    }
+    .get_in_touch_form
+    {
+        grid-row: 1/1;
+        grid-column: 1/2;
+        height: 350px;
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .get_in_touch_form h2
+    {
+        margin-top: 3%;
+        margin-left: 5%;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .get_in_touch_form input, textarea
+    {
+        margin-top: 2%;
+        margin-left: 5%;
+        border-radius: 5px;
+        padding-left: 8px;
+        font-size: 15px;
+        display: flex;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .btn_get_info
+    {
+        height: 40px;
+        width: 250px;
+        margin-top: 3%;
+        margin-left: 5%;
+        background-color: maroon;
+        color: white;
+        border-radius: 25px;
+        padding-left: 4px;
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .get_in_touch_info
+    {
+        grid-row: 1/1;
+        grid-column: 2/2;
+        height: 350px;
+        width: 280px;
+        background-color: rgb(138, 24, 4);
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .get_in_touch_info hr
+    {
+        width: 220px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: lightgray;
+    }
+    .get_in_touch_info h4, h3
+    {
+        color: silver;
+        font-family:sans-serif;
+    } 
+/* get in touch main css over*/
+}
