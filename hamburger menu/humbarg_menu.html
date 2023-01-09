@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url(/css/main1.css);
+        @import url(css/mobile.css);
+    </style>
+</head>
+<body>
+    <div class="nav_menu">
+            <img src="/Assets/logo_img.jpg" alt="">
+        <div class="menu_list" id="menu_list">
+            <a href="#" class="menu_item"> Home </a>
+            <a href="#" class="menu_item">About</a>
+            <a href="#" class="menu_item"> Projects</a>
+            <a href="#" class="menu_item"> Contact</a>  
+        </div>
+            <a href="javascript:void(0)" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>  
+            
+            <script>
+                function myFunction() 
+                {
+                    var showhide = document.getElementById('menu_list');
+                   //console.log(showhide);
+                    if(showhide.style.display === "block")
+                    {
+                        showhide.style.display = "none";
+                    } else  
+                    {
+                        showhide.style.display = "block";
+                    }
+                }
+               </script>
+        </div>
+    </div>
+</body>
+</html>

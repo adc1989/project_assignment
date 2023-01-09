@@ -1,0 +1,37 @@
+@media (max-width:480px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .menu_item
+    {
+        display:block; 
+        width: 300px;
+        background-color: lightgreen;
+        
+    }
+    .menu_list{
+        margin: 60PX;
+        padding: 0%;
+        position: relative;
+        top:5px;
+        right:100px;
+        transition: 1.7 ease-in-out;
+    }
+    a.icon
+    {
+        display:block;
+    }
+  
+    .nav_menu img
+    {
+        width: 50px;
+        height: 60px;
+        border-radius: 50px;
+    }
+        
+}
+
