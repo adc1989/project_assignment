@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khate jaoo</title>
+
+    <!-- bootstrep library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- bootstrep library-->
+
+    <!-- font awaysome library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awaysome library-->
+
+    <!--JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+
+    <style>
+        @import url(/css/style.css);
+        @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('#login_btn').click(function () {
+                $('.toast').toast('show');
+            });
+
+            // $('#btn_hide').click(function () {
+            //     $('.toast').toast('hide');
+            // });
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Header section Start -->
+    <div class="container-fluid header-background">
+        <div class="row">
+
+            <!--navigation start-->
+            <nav
+                class="navbar navbar-expand-lg navbar-light d-flex justify-content-end head_bg_nav_text position-fixed">
+                <div class="container-fluid">
+                    <a class="navbar-brand head_bg_nav_text text-warning fs-1" href="#"><i
+                            class="fa fa-utensils ms-5 me-2 text-warning fs-1 fw-bolder"></i>Restaurant</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-3">
+                            <li class="nav-item px-3">
+                                <a class="nav-link head_bg_nav_text" aria-current="page" href="/index.html">HOME</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link head_bg_nav_text" href="/about_us.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link head_bg_nav_text" href="/service.html">SERVICE</a>
+                            </li>
+                            <li class="nav-item dropdown px-3">
+                                <a class="nav-link dropdown-toggle head_bg_nav_text" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    MENU
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white" href="#">Punjabi Dishe</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">South Indian Dishe</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Chinese Dishe</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider bg-success ">
+                                    </li>
+                                    <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item head_bg_nav_text px-3">
+                                <a class="nav-link head_bg_nav_text" href="/contact us.html" tabindex="-1"
+                                    aria-disabled="true">CONTACT
+                                    US</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <button class="btn btn-outline-success me-3 text-warning" id="login_btn">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--navigation over-->
+
+            <!--Toast section start from here-->
+            <div class="toast" style="position:fixed; top:200px; right:500px; z-index: 3;" >
+                <div class="toast-header">
+                    <strong class="me-auto fs-3 fw-bolder text-success">Login</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+                </div>
+                <div class="toast-body" style="z-index:100;">
+                    <div class="container">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12 mt-3">
+                                    <div class="form-group">
+                                        <input type="text" name="" id="" class="form-control py-2 text-black"  placeholder="User Name">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="password" name="" id="" class="form-control py-2 text-black" placeholder="Password">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="button" value="Login" class="btn btn-success w-100">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="button" value="Sign Up" class="btn btn-success w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--Toast section over from here-->
+
+        </div>
+
+        <div class="container mt-5">
+            <div class="row mt-5">
+                <div class="col-md-7 mt-5 head_bg_text">
+                    <h1 class="head_bg_text display-2 fw-bolder text-white pt-5">Enjoy Our Delicious Meal</h1>
+                    <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, nobis sed beatae magni nam
+                        est assumenda voluptatibus placeat quisquam distinctio illum. Eligendi odio repellendus
+                        praesentium!</p>
+                    <button class="btn btn-success head_bg_text">BOOK A TABLE</button>
+                    <!-- <img src="/assets/hero.png" alt="" class="img-fluid img_rotate"> -->
+                </div>
+                <div class="col-md-5 mt-5 d-sm-block  pt-5 align-self-center text-center">
+                    <img src="/assets/hero.png" alt=""  class="img-fluid img_rotate w-75">
+                </div>
+            </div> 
+        </div> 
+        <div class="overlay"></div>
+    </div>
+    
+    <!-- Header section Over -->
+
+
+    <!--Food menu section start from here-->
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col-md-12 mt-5 d-flex justify-content-center">
+                <h4 class="page_title ps-5"> food menu </h4>
+            </div>
+            <div class="col-md-12 mb-3 d-flex justify-content-center">
+                <h1 class="mt-4">Most Popular Items</h1>
+            </div>
+
+            <div class="col-md-12 mt-3 mb-5 d-flex flex-row justify-content-center">
+                <div class="card-group w-50 h-25">
+                    <div class="card">
+                        <div class="row gx-0">
+                            <div class="col text-center">
+                                <div class="card-body">
+                                    <i class="fa-solid fa-mug-saucer fs-1 fw-bolder text-success "></i>
+                                    <a href="" class="btn card-title fs-6">Popular Breakfast</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row gx-0">
+                            <div class="col text-center">
+                                <div class="card-body ">
+                                    <i class="fa-solid fa-burger fs-1 fw-bolder text-success"></i>
+                                    <a href="" class="btn card-title fs-6">Special Lunch</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row gx-0">
+                            <div class="col text-center">
+                                <div class="card-body ">
+                                    <i class="fa fa-utensils fs-1 fw-bolder text-success"></i>
+                                    <a href="" class="btn card-title fs-6">Lovely Dinner</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2 mt-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHVQzU1lfVe2Y-0hBWSQY2oRvv3-8qk-Mbeg&usqp=CAU"
+                    alt="" class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Rice <span class="float-end">&#x20B9;110</span></h4>
+                <hr>
+                <p>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+            <div class="col-md-2 mt-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbnbxkqxiCF9gwGVxakWHp1-F8MkFiqlbDQ&usqp=CAU"
+                    class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Noodals <span class="float-end">&#x20B9;80</span></h4>
+                <hr>
+                <p mt-2 fw-light lh-lg>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-2 mt-5 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHVQzU1lfVe2Y-0hBWSQY2oRvv3-8qk-Mbeg&usqp=CAU"
+                    alt="" class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Rice <span class="float-end">&#x20B9;110</span></h4>
+                <hr>
+                <p>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+            <div class="col-md-2 mt-5 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbnbxkqxiCF9gwGVxakWHp1-F8MkFiqlbDQ&usqp=CAU"
+                    class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Noodals <span class="float-end">&#x20B9;80</span></h4>
+                <hr>
+                <p mt-2 fw-light lh-lg>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+        </div>
+
+        <div class="row border">
+            <div class="col-md-2 mt-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHVQzU1lfVe2Y-0hBWSQY2oRvv3-8qk-Mbeg&usqp=CAU"
+                    alt="" class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Rice <span class="float-end">&#x20B9;110</span></h4>
+                <hr>
+                <p>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+            <div class="col-md-2 mt-5">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbnbxkqxiCF9gwGVxakWHp1-F8MkFiqlbDQ&usqp=CAU"
+                    class="img-fluid h-100 w-100 ">
+            </div>
+            <div class="col-md-4 mt-5 border">
+                <h4>Manchurian Noodals <span class="float-end">&#x20B9;80</span></h4>
+                <hr>
+                <p mt-2 fw-light lh-lg>Manchurian thorn is a tree. The bark and roots are used to make medicine.</p>
+            </div>
+        </div>
+    </div>
+    <!--Food menu section over here-->
+
+
+    <!--Footer Start from here-->
+    <div class="container-fluid bg-success mt-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <h4 class="page_title ps-1 foot"> Company </h4>
+                    <p> <a href="/about_us.html" class="text-mute foot"> > About Us </a> </p>
+                    <p> <a href="/contact us.html" class="text-mute foot"> > Contact Us </a> </p>
+                    <p> <a href="" class="text-mute foot"> > Resevation </a> </p>
+                    <p> <a href="" class="text-mute foot"> > Private Policy </a> </p>
+                    <p> <a href="" class="text-mute foot"> > Term and Condition </a></p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h4 class="page_title ps-1 foot"> Contact </h4>
+                    <p class="foot"><i class="fa fa-map-marker" aria-hidden="true"></i> G 506, City Center Homes,
+                        Krishnanagar, Ahmedabad</p>
+                    <p class="foot"><i class="fa fa-mobile" aria-hidden="true"></i> 8905609484</p>
+                    <p class="foot"><i class="fa fa-envelope" aria-hidden="true"></i> aashish.chauhan89@gmail.com</p>
+                    <p class="foot" style="font-size: 30px;">
+                        <a href="" style="color: lightgreen;"><i class="fa-brands fa-twitter p-1"></i></a>
+                        <a href="" style="color: lightgreen;"><i class="fa-brands fa-instagram p-1"></i></a>
+                        <a href="" style="color: lightgreen;"><i class="fa-brands fa-square-github p-1"></i></a>
+                        <a href="" style="color: lightgreen;"><i class="fa-brands fa-square-facebook p-1"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h4 class="page_title ps-1 foot"> Opening </h4>
+                    <p class="foot fw-bolder">Monday - Saturday </p>
+                    <p class="foot">09AM - 09PM</p>
+                    <p class="foot fw-bolder">Sunday</p>
+                    <p class="foot">10AM - 08PM</p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <h4 class="page_title ps-1 foot"> Newsletter </h4>
+                    <p class="foot">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="mb-3 g-0">
+                        <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                        <input type="email" class="form-control rounded-0 w-100 " id="exampleFormControlInput1"
+                            placeholder="Your Emai">
+                        <button class="btn btn-success text-success fw-bolder"
+                            style="background-color: lightgreen;">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-3 mb-1 foot">
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="foot"><b><u> &copy; Khate Jaoo Restaurant </u></b>, All Right Reserved. Designed By
+                        <b><u>Aashish Chauhan</u></b>
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <div class="row justify-content-end g-5 float-end">
+                        <div class="col border-end"><a href="/index.html" class="text-mute foot"> Home </a></div>
+                        <div class="col border-end foot"> <a href="" class="text-mute foot"> Cookies </a> </div>
+                        <div class="col border-end foot"> <a href="" class="text-mute foot"> Help </a> </div>
+                        <div class="col foot"> <a href="" class="text-mute foot"> FQAs </a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer over here-->
+
+    <!--start Script for Menubar-->
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop()) {
+                $("nav").addClass("black");
+            }
+            else {
+                $("nav").removeClass("black");
+            }
+        });
+    </script>
+
+<script>
+    $(document).ready(function () 
+    {
+        $('.navbar-toggler').onclick(function()
+        {
+            $("ul").addClass("black");
+        }) 
+    });
+</script>
+    <!--over Script for Menubar-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mansalva&family=Marvel:wght@700&family=Oxygen+Mono&family=Schoolbell&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: aliceblue;
+}
+.page_title
+{
+    font-family: 'Dancing Script', cursive;;
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* header section start */
+.header-background
+{
+    background-image: url(/assets/bg_header_6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    position: relative;
+    width: 100%;
+    /* height: 700px; */
+}
+.head_bg_nav_text
+{
+    color: #fff;
+    font-family: 'Oxygen Mono', monospace;
+    font-weight: bolder;
+    font-size: 16px;
+    z-index: 2;
+}
+nav.black
+{
+    background-color: #000;
+    z-index: 3;
+}
+ul.black
+{
+    background-color: #000;
+    z-index: 3;
+}
+.nav-item:hover .head_bg_nav_text
+{
+    background-color: #198754;
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-item:hover
+{
+    background-color: #198754;
+    color:#fff;
+}
+.dropdown-menu
+{
+    color: #fff;
+    background-color: transparent;
+    border: hidden;
+}
+.head_bg_text
+{
+    /* color: #fff; */
+    /* font-weight: bolder; */
+    z-index: 2;
+}
+.head_bg_text h1
+{
+    /* color: #fff; */
+    margin-top: 70px;
+    font-family: 'Oxygen Mono', monospace;
+    /* font-weight: bolder; */
+    /* font-size: 72px; */
+    z-index: 2;
+}
+.head_bg_text p
+{
+    color: #fff;
+    font-family: 'Schoolbell', cursive;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.img_rotate
+{
+    animation: mydish 50s infinite linear;
+    z-index: index 200;
+}
+@keyframes mydish
+{
+    0%
+    {
+        transform: translate(0%,0%) rotate(0deg);
+    }
+    100%
+    {
+        transform: translate(0%,0%) rotate(360deg);
+    }
+}
+.overlay
+{
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+/* header section over */
+
+/* services section start */
+
+/* services section over */
+
+
+/* footer section start */
+.foot
+{
+    color: lightgreen;
+}
+a.foot
+{
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 16px;
+}
+a.foot:hover
+{
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* footer section over */
