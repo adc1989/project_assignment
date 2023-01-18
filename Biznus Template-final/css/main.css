@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Rokkitt', serif;
+    background-color: aqua;
+}
+.announcement
+{
+    background-color: #000;
+    height: 70px;
+    align-items: center;
+    /* position:fixed; */
+}
+.navigation
+{
+    background-color: #eb5757;
+    height: 50px; 
+    /* margin-left: 600px;  */
+}
+ul.navbar-nav
+{
+    /* padding-left: 400px; */
+    padding-bottom: 20px;
+}
+li
+{
+    padding-left: 40px;
+}
